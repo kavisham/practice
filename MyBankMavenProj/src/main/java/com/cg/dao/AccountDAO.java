@@ -11,4 +11,6 @@ public interface AccountDAO {
 	public boolean transferMoney(Account fromAccount,Account toAccount);
 	public Account getAccountById(int account_no);
 	public List<Account> getAllAccounts();
+	
+	//Myrepository
 }
